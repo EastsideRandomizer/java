@@ -9,7 +9,9 @@ public class average
 	final int divisor = 3;
 	/* Carries out the opreation */
 	double outcome = (( num1 + num2 + num3 ) / divisor);
-	System.out.println("The three numbers are:" +num1  num2 +num3 );
+	System.out.println("Num1:" + num1 );
+	System.out.println("Num2:" + num2 );
+	System.out.println("Num3:" + num3 );
 	System.out.println("Average =" +outcome );
     }
 }

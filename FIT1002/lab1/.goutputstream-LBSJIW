@@ -1,0 +1,23 @@
+public class num5 {
+    public static void main (String[] args) {
+	/*declares variables*/
+	int input = 5322;	
+	int hour ;
+	int remainderHour;
+	int minute ;
+	int second;
+	/* print the number of seconds */
+	System.out.println("number of seconds:" +input);
+	/* calculate the number of hours and remainder */ 
+	hour = input / 3600;
+	remainderHour = input % 3600;
+	/* calculate the number of minutes and remainder */ 
+	minute = remainderHour / 60;
+	second =  remainderHour % 60; // what is left is seoncds
+	/* prints the number of seconds */
+	System.out.println("The number of hours in " +input " is:" +hour);
+	System.out.println("The number of minutes in " +input " is:" +minute);
+	System.out.println("The number of seoncds in " +input " is:" +second);
+
+    }
+}

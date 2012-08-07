@@ -1,0 +1,58 @@
+\title{Introductions to Objects}
+\documentclass[12pt]{article}
+\begin{document}
+
+\title{FIT1002 : Introduction to Objects}
+\date{6 August, 2012}
+\author{Gordon Ng}
+\maketitle
+
+\pagebreak
+\tableofcontents
+\pagebreak
+\section{Objects}
+Objects can have a state and can have behaviours
+\subsection{Attributes}
+An objects's data is often called its Attributes or Characteristics. \\
+They are Implements in Java as Instance Variables.
+e.g:Current bank balance
+\subsection{Behaviours}
+They are implemented in Java as methods
+
+\section{Class}
+A class is arecipe for making objects from the same Class.\\
+We can create multiple Object from the same Class.
+\begin{itemize}
+\item An Object is defined by a Class.
+\item All object of a Class have the same data item but different values.
+\item All objects os a class has same behaviours.
+\item An object is an instance of a Class.
+\end{itemize}
+
+
+\pagebreak
+\section{Creating Reference Varibles}
+Assuming there is a Class baned Student. We will declare a variable capable of referencing a student object.  \\
+\\
+Student aStudent;
+\\ \\
+We have created a variable that can contain the address of a Student's data and point at a student object.
+\\
+aStudent = new Student(``Mary Jane'',''mjane@student.com'',''Comp.Sci'')
+\\
+\begin{itemize}
+\item aStudent: Reference Variable
+\item new: instantiation opreator (Creates a student object)
+\item Student: same name as the object's Class which is the same name as the object's reference type.
+\item ():Constructor
+\end{itemize}
+
+\section{Java Standard Class Library}
+\subsection{Example Classes}
+\subsubsection{Scanner}
+Scanner is a reference type variable (or a class type). \\
+Scanner cannot be resolved as a primitive type.\\
+Hence \textbf{java.util.Scanner} or \textbf{java.util.Scanner} or \textbf{java.util.*} is used. \\
+A package lang is automatically imported to any java file.
+
+\end{document}

@@ -1,0 +1,64 @@
+
+\documentclass[12pt]{article}
+\begin{document}
+
+\title{FIT1002 : Introduction to Objects - Continued}
+\date{7 August, 2012}
+\author{Gordon Ng}
+\maketitle
+
+\pagebreak
+\tableofcontents
+\pagebreak
+\section{Reference Variables}
+int count = 38; \\
+int = Primitive type. \\
+38 is a value in the memory. \\
+Reference \\
+\subsection{Assignment}
+It is same procedure as for primitive type except the value copied is an ADDRESS. \\
+JVM undergoes Garbage Collection. 
+
+\section{String Class}
+String is a reference type but it seems like a primitive type (It can has any size and has to be stored in the heap).
+\subsection{Common Methods}
+\begin{itemize}
+\item length():
+\item CharAt(n):
+\item toUpperCase:
+\item toLowerCase:
+\item substring($n_{lower},n_{upper}$)
+\end{itemize}
+\pagebreak
+\subsection{Character Indexs and Concatentation}
+\subsubsection{String Concatenation}
+\pagebreak
+\section{Math Class}
+\begin{itemize}
+\item It is called a static class. 
+\item It is not an object.
+\item They are relatively rare.
+\item They contain the method of generating random number.
+\item It also provide mathematical constant
+\item \textbf{It is involked by Math.*}
+\end{itemize}
+\subsection{Common}
+\begin{itemize}
+\item sqrt (double num)
+\end{itemize}
+
+\section{Others}
+\subsection{Decimal Format}
+DecimalFormat places3 = new DecimalFormat(``0.\#\#''); \\
+System.out,println(s)
+\subsection{Enumerated Type}
+It defines all possible value of a variable of a enumerated type.\\
+\textbf{How to use:} \\
+enum Grade (A,B,C,D,E,F); \\
+\textbf{Assigning value:} \\
+vairable = variablename.value; \\
+\pagebreak
+\section{Why we don't use NextLine}
+End of Line Problems. Sometimes NextLine is used twice but it more advisible to not to use it.
+
+\end{document}

@@ -1,0 +1,17 @@
+/* imports math class */
+import java.util.*;
+public class cake {
+    public static void main(String[] args){
+	/* declares variables */
+	double radius;
+	int noGuests;
+	double circumference;
+	final double pie=Math.pi;
+	/* initalizes scanner */
+	Scanner scan = new Scanner(System.in);
+	/* Ask for the radius of the cake */
+	System.out.println("Please Enter the radius of the cake");
+	radius=scan.NextDouble();
+	/* Ask for the number of guests */
+	System.out.println("Please Enter the number of guests");
+	noGuests=scan.NextInt();

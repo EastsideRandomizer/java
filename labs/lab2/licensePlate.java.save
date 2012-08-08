@@ -6,7 +6,7 @@ public class licensePlate {
 	Scanner scan = new Scanner(System.in);
 	/* Declares variables */
 	String name = " ";
-	double number = 100 + Math.random() * 899 ;
+	double number = (Math.random()+0.1) * 1000 ;
 	/* Ask for a name */
 	System.out.println("Please Enter name:");
 	name = scan.nextLine();
@@ -31,7 +31,6 @@ public class licensePlate {
 
 	/* prints the License Plate  */
 	System.out.println(name.substring((int)nameLetter1,(int)nameLetter1+1) + name.substring((int)nameLetter2,(int)nameLetter2+1) + name.substring((int)nameLetter3,(int)nameLetter3+1)+ " " + grade.format(number));
-	
 	
     }
 }

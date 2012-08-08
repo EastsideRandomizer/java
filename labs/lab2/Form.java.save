@@ -1,0 +1,28 @@
+import java.util.*
+public class Form {
+    public static void main(String[] args){
+	/* initalies variable */
+	int age;
+	String lastName;
+	String firstName;
+	int level (Advanced ,Intermidate, Beginner};
+	int moneyPaid;
+	int lessons;
+	/* Calls Scanner */
+	Scanner scan = new Scanner(System.in);
+	
+	/* Ask for every data */
+	System.out.println("Enter Surname: ");
+	scan.next(lastName);
+	System.out.println("Enter inital of first name: ");
+	scan.next(firstName);
+	System.out.println("Enter Age: ");
+	scan.nextInt(age);
+	System.out.println("Enter skiing level(Advanced, Intermidiate,Beginner): ");
+	scan.next(level);
+	System.out.println("Enter Classes Taken: ");
+	scan.nextInt(lessons);
+	System.out.println("Enter amount of money paid: ");
+	scan.nextInt(moneyPaid);
+    }
+}

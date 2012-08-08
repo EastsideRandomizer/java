@@ -1,0 +1,9 @@
+import java.util.*;
+public class licensePlate {
+    public static void main (String[] args){
+	/* Initiates Scanner */
+	Scanner scan = new Scanner(System.in);
+	int number = Math.random() * 1000 ;
+	System.out.println(number):
+    }
+	

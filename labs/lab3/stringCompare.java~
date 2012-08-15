@@ -1,0 +1,21 @@
+public class stringCompare {
+    public static void main(String[] args){
+	/* Declare variables */
+	string string1;
+	string string2;
+	/* Initate Scanner */
+	Scanner scan = new Scanner(System.in);
+ 	/*Enter two strings */
+	System.out.println("Please Enter a integer:");
+	string1 = scan.next();
+	System.out.println("Please Enter another integer:");
+	string2 = scan.next();
+	/* compares the strings */
+	if(string1.equals(string2)){
+	    System.out.println("Both strings are the same."); 
+	}
+	else{
+	    System.out.println("Both strings are not the same."); 
+	}
+    }
+}

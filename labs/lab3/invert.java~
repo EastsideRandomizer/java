@@ -1,0 +1,26 @@
+public class invert {
+    public static void main(String[] args){
+	/* Declare variables */
+	int num1;
+	final int hundred = 100;
+	final int ten = 10;
+	int output;
+	/* Initate Scanner */
+	Scanner scan = new Scanner(System.in);
+	/* Ask for input */
+	System.out.println("Please Enter a integer:");
+	num1 = scan.nextInt();
+	if (num1 > 999 || num1 < 100) {
+	    System.out.println("You have entered something that is not between 100 and 999. Exiting.");
+	}
+	else {
+	    int num2 = num1 / hundred;
+	    int hundredRemainder = num1 % hundred;
+	    int num3 = num1 / ten;
+	    int num4 = num2 / ten;
+	    int tenRemainder = num2 % ten;
+	    output = tenRemainder * 100 + num1 + num2;
+	    System.out.println("Output: " + output);
+	}
+    }
+}

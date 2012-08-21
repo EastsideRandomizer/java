@@ -19,9 +19,9 @@ public class Form {
 	firstName = scan.next();
 	System.out.println("Enter Age: ");
 	age = scan.nextInt();
-	System.out.println("Enter skiing level(Advanced,Intermediate,Beginner): ");
+	System.out.println("Enter skiing level(Advanced,Intermidiate,Beginner): ");
 	level = scan.next();
-	System.out.println("Enter Classes Taken: ");
+	System.out.println("Enter Classes Taken ($50 each): ");
 	lessons = scan.nextInt();
 	System.out.println("Enter amount of money paid: ");
 	moneyPaid = scan.nextInt();
@@ -32,9 +32,9 @@ public class Form {
 	/* prints out data */
 	System.out.println( lastName + ", " + firstName);
 	System.out.println("Details: ");
-	System.out.println('\t' +  "*Age " +age + " years; " + level + " Skier");
-	System.out.println('\t' + "*Amount Paid: " + moneyPaid);
-	System.out.println('\t' + "*Number of lessons paid for: " + lessons);
-	System.out.println('\t' + "*Your change is: " + change);
+	System.out.println('\t' +  "* Age " +age + " years; " + level + " Skier");
+	System.out.println('\t' + "* Amount Paid: " + moneyPaid);
+	System.out.println('\t' + "* Number of lessons paid for: " + lessons);
+	System.out.println('\t' + "* Your change is: " + change);
     }
 }

@@ -1,0 +1,17 @@
+import java.util.*;
+public class question3a {
+    public static void main(String[] args){
+                final int AGE = 20;
+                int input;
+                int integer;
+                System.out.println("Guess an age:");
+                Scanner scan = new Scanner(System.in);
+		while( input != AGE){
+		System.out.println("Your guess is not correct. Try again.");
+	                input = scan.nextInt();
+	}
+                System.out.println("Your guess is not correct. Try again.");
+        	}
+		}
+
+

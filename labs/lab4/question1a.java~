@@ -1,0 +1,8 @@
+import java.util.*;
+public class question1a {
+    public static void main(String[] args){
+		final int SENTINEL = 0;
+		int sum;
+		int integer;
+		while 
+}

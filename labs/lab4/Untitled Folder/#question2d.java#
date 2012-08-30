@@ -16,7 +16,7 @@ public class question2d {
         /* the loop executes n times */
         for(int i = 0; i <= (n - 1); i++){
 			length = i+1;
-			/*declares an array so that a number of characters can be filled
+			/*declares an array of length = i+1 so that a number of characters can be filled.
 			  In this case arrays are used because it makes life easier. */
 			char[] chars = new char[length];
 			/* fills up the array with "*" */ 

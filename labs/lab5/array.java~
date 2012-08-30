@@ -1,0 +1,7 @@
+public class question2d {
+    public static void main(String[] args){
+			char[] chars = new char[10];
+			char[10] = {a,b,a,c,b,a,d,a,f,d};
+			/*prints out the string defined by the array*/
+			System.out.println(String.valueOf(chars));
+	}

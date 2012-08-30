@@ -1,0 +1,234 @@
+import java.util.Scanner;
+
+public class Calculator
+{
+	public static void main(String[] args)
+	{
+		Scanner scan = new Scanner(System.in);
+		int choice, val1, val2, result;
+
+		System.out.println("Welcome to Lab 6");
+		System.out.println("You will have 4 opportunities to choose what calculations to do");
+		
+		System.out.println("Opportunity #1");
+		System.out.println("1. Do an addition");
+		System.out.println("2. Do a subtraction");
+		System.out.println("3. Do a multiplication");
+		System.out.println("4. Do an integer division");
+		
+		System.out.print("Your Choice: ");
+		choice = scan.nextInt();
+		
+		if (choice < 1 || choice > 4)
+		{
+			System.out.println("Invalid Choice. You wasted an opportunity!");
+		}
+		else if (choice == 1)
+		{
+			System.out.print("Enter first number: ");
+			val1 = scan.nextInt();
+			System.out.print("Enter second number: ");
+			val2 = scan.nextInt();
+			
+			result = val1 + val2;
+			System.out.println("The sum of " + val1 + " and " + val2 + " is " + result);
+		}
+		else if (choice == 2)
+		{
+			System.out.print("Enter first number: ");
+			val1 = scan.nextInt();
+			System.out.print("Enter second number: ");
+			val2 = scan.nextInt();
+			
+			result = val1 - val2;
+			System.out.println("The result of subtracting " + val2 + " from " + val1 + " is " + result);			
+		}
+		else if (choice == 3)
+		{
+			System.out.print("Enter first number: ");
+			val1 = scan.nextInt();
+			System.out.print("Enter second number: ");
+			val2 = scan.nextInt();
+			
+			result = val1 * val2;
+			System.out.println("Multiplying " + val1 + " and " + val2 + " gives " + result);
+		}
+		else if (choice == 4)
+		{
+			System.out.print("Enter first number: ");
+			val1 = scan.nextInt();
+			System.out.print("Enter second number: ");
+			val2 = scan.nextInt();
+			
+			result = val1 / val2;
+			System.out.println("The sum of integer division of " + val1 + " by " + val2 + " is " + result);
+		}
+
+		System.out.println("Opportunity #2");
+		System.out.println("1. Do an addition");
+		System.out.println("2. Do a subtraction");
+		System.out.println("3. Do a multiplication");
+		System.out.println("4. Do an integer division");
+		
+		System.out.print("Your Choice: ");
+		choice = scan.nextInt();
+		
+		if (choice < 1 || choice > 4)
+		{
+			System.out.println("Invalid Choice. You wasted an opportunity!");
+		}
+		else if (choice == 1)
+		{
+			System.out.print("Enter first number: ");
+			val1 = scan.nextInt();
+			System.out.print("Enter second number: ");
+			val2 = scan.nextInt();
+			
+			result = val1 + val2;
+			System.out.println("The sum of " + val1 + " and " + val2 + " is " + result);
+		}
+		else if (choice == 2)
+		{
+			System.out.print("Enter first number: ");
+			val1 = scan.nextInt();
+			System.out.print("Enter second number: ");
+			val2 = scan.nextInt();
+			
+			result = val1 - val2;
+			System.out.println("The result of subtracting " + val2 + " from " + val1 + " is " + result);			
+		}
+		else if (choice == 3)
+		{
+			System.out.print("Enter first number: ");
+			val1 = scan.nextInt();
+			System.out.print("Enter second number: ");
+			val2 = scan.nextInt();
+			
+			result = val1 * val2;
+			System.out.println("Multiplying " + val1 + " and " + val2 + " gives " + result);
+		}
+		else if (choice == 4)
+		{
+			System.out.print("Enter first number: ");
+			val1 = scan.nextInt();
+			System.out.print("Enter second number: ");
+			val2 = scan.nextInt();
+			
+			result = val1 / val2;
+			System.out.println("The sum of integer division of " + val1 + " by " + val2 + " is " + result);
+		}
+
+
+		System.out.println("Opportunity #3");
+		System.out.println("1. Do an addition");
+		System.out.println("2. Do a subtraction");
+		System.out.println("3. Do a multiplication");
+		System.out.println("4. Do an integer division");
+		
+		System.out.print("Your Choice: ");
+		choice = scan.nextInt();
+		
+		if (choice < 1 || choice > 4)
+		{
+			System.out.println("Invalid Choice. You wasted an opportunity!");
+		}
+		else if (choice == 1)
+		{
+			System.out.print("Enter first number: ");
+			val1 = scan.nextInt();
+			System.out.print("Enter second number: ");
+			val2 = scan.nextInt();
+			
+			result = val1 + val2;
+			System.out.println("The sum of " + val1 + " and " + val2 + " is " + result);
+		}
+		else if (choice == 2)
+		{
+			System.out.print("Enter first number: ");
+			val1 = scan.nextInt();
+			System.out.print("Enter second number: ");
+			val2 = scan.nextInt();
+			
+			result = val1 - val2;
+			System.out.println("The result of subtracting " + val2 + " from " + val1 + " is " + result);			
+		}
+		else if (choice == 3)
+		{
+			System.out.print("Enter first number: ");
+			val1 = scan.nextInt();
+			System.out.print("Enter second number: ");
+			val2 = scan.nextInt();
+			
+			result = val1 * val2;
+			System.out.println("Multiplying " + val1 + " and " + val2 + " gives " + result);
+		}
+		else if (choice == 4)
+		{
+			System.out.print("Enter first number: ");
+			val1 = scan.nextInt();
+			System.out.print("Enter second number: ");
+			val2 = scan.nextInt();
+			
+			result = val1 / val2;
+			System.out.println("The sum of integer division of " + val1 + " by " + val2 + " is " + result);
+		}
+
+
+		System.out.println("Opportunity #4");
+		System.out.println("1. Do an addition");
+		System.out.println("2. Do a subtraction");
+		System.out.println("3. Do a multiplication");
+		System.out.println("4. Do an integer division");
+		
+		System.out.print("Your Choice: ");
+		choice = scan.nextInt();
+		
+		if (choice < 1 || choice > 4)
+		{
+			System.out.println("Invalid Choice. You wasted an opportunity!");
+		}
+		else if (choice == 1)
+		{
+			System.out.print("Enter first number: ");
+			val1 = scan.nextInt();
+			System.out.print("Enter second number: ");
+			val2 = scan.nextInt();
+			
+			result = val1 + val2;
+			System.out.println("The sum of " + val1 + " and " + val2 + " is " + result);
+		}
+		else if (choice == 2)
+		{
+			System.out.print("Enter first number: ");
+			val1 = scan.nextInt();
+			System.out.print("Enter second number: ");
+			val2 = scan.nextInt();
+			
+			result = val1 - val2;
+			System.out.println("The result of subtracting " + val2 + " from " + val1 + " is " + result);			
+		}
+		else if (choice == 3)
+		{
+			System.out.print("Enter first number: ");
+			val1 = scan.nextInt();
+			System.out.print("Enter second number: ");
+			val2 = scan.nextInt();
+			
+			result = val1 * val2;
+			System.out.println("Multiplying " + val1 + " and " + val2 + " gives " + result);
+		}
+		else if (choice == 4)
+		{
+			System.out.print("Enter first number: ");
+			val1 = scan.nextInt();
+			System.out.print("Enter second number: ");
+			val2 = scan.nextInt();
+			
+			result = val1 / val2;
+			System.out.println("The sum of integer division of " + val1 + " by " + val2 + " is " + result);
+		}
+		
+		
+		System.out.println("Thankyou for using this program. Goodbye!");
+	}
+}

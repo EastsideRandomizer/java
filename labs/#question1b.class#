@@ -1,0 +1,5 @@
+import java.util.*;
+public class question1a {
+    public static void main(String[] args){
+		in
+		Scanner scan = new Scanner(System.in);

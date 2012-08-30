@@ -1,0 +1,45 @@
+import java.util.Scanner;
+
+public class Calculator
+{
+	static Scanner scan = new Scanner(System.in);
+	static int int1, int2;
+	public static void main(String[] args){
+		int choice;
+		System.out.println("Menu Option(Please Enter a number):" );
+		System.out.println("1. Odd integers");
+		System.out.println("2. Divisibles");
+		System.out.println("3. Exit");
+		System.out.println("Your Choice: ");
+		option();
+	}
+	public static void option(){
+		choice = scan.nextInt();
+		if (choice == 1){
+			odd();
+		}
+		if(choice == 2){
+			division();
+		}
+		if(choice == 3){
+			exit();
+		}
+		else{
+		}
+	}
+	public static void odd(){
+		int increment;
+		final int DIVISOR = 2;
+		System.out.println("Please Enter an integer");
+		int1 = scan.nextInt();
+		System.out.println("Please Enter another integer");
+		int2 = scan.nextInt();
+		for (int1; int1 < int2 ; int1++){
+			increment = int++;
+			  if (increment % DIVISOR = 0){
+				  System.out.print(increment);
+				  System.out.print(", "); 
+			  }
+		}
+	}
+}

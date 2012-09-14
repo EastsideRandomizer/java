@@ -1,0 +1,47 @@
+\documentclass[12pt]{article}
+\begin{document}
+\title{FIT1002 : Methods Revisited}
+\date{27 August, 2012 - 28 August,2012 }
+\author{Gordon Ng}
+\maketitle
+\pagebreak
+\tableofcontents
+\pagebreak
+
+\section{Parameters}
+\begin{itemize}
+\item It allows us to pass data into methods.
+\item It makes the methods more flexible.
+\item Example:\\
+ private static char calc(int num1,int num2, String message).
+\item The variables declared inside the definition of method are known as FORMAL PARAMETER LIST .
+\item In a FORMAL PARAMETER LIST, it cannot contain an expression.
+\item The data that resides inside a method call is known as ACTUAL PARAMETER. It also must be a compatible type towards the FORMAL PARAMETER.
+\end{itemize}
+\subsection{Lifetime}
+Their lifetime is the same as a local variable.
+
+\subsection{Constructors}
+The default constructor is parameter-less.
+
+\pagebreak
+\subsection{Overloading}
+One can have multiple methods with the \textbf{same} name as long as they have different signatures. \\
+The signature contains the method name AND the FORMAL parameter list.
+For example:
+\begin{itemize}
+\item test(int a, int b);
+\item test(int c);
+\end{itemize}
+Both methods are legal as they have different Formal parameters. \\
+That way we can do Constructor overloading to create new objects:
+\begin{itemize}
+\item public Car(int Cost);
+\item public Car(int Age, int Cost);
+\end{itemize}
+Both can be used to create different objects.
+
+\section{Static Method}
+It doesn't understand objects. Does it matter?
+\end{document}
+

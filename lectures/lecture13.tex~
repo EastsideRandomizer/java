@@ -1,0 +1,21 @@
+\title{Introductions to Objects}
+\documentclass[12pt]{article}
+\begin{document}
+
+\title{FIT1002 : Modularization}
+\date{27 August, 2012 - 28 August,2012 }
+\author{Gordon Ng}
+\maketitle
+
+\pagebreak
+\tableofcontents
+\pagebreak
+
+\section{UML}
+\begin{itemize}
+\item Upper Box: Name of Class
+\item Middle box:Attributes
+\item Lower box:
+\item + Public Class
+\item - Private Class
+\item method name, type

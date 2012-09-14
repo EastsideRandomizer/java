@@ -1,0 +1,7 @@
+\contentsline {section}{\numberline {1}UML}{3}
+\contentsline {subsection}{\numberline {1.1}Example}{3}
+\contentsline {section}{\numberline {2}Encapsulation}{3}
+\contentsline {section}{\numberline {3}Visibility}{3}
+\contentsline {section}{\numberline {4}Our own classes}{3}
+\contentsline {section}{\numberline {5}Instance Variable}{3}
+\contentsline {section}{\numberline {6}Reminder}{4}

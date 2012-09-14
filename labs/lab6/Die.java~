@@ -1,0 +1,17 @@
+public class Die {
+
+	public final MAX_VALUE = 6;
+	int faceValue;
+
+	public Die(){
+		roll();
+	}
+
+	public void roll(){
+		faceValue = 1 + Math.random() * 5;
+	}
+	public int getFaceValue(){
+		return faceValue;
+	}
+
+}

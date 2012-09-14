@@ -1,0 +1,24 @@
+import java.util.*;
+public class question3b {
+    public static void main(String[] args){
+                
+                int wrongGuess = 0;
+                int correctGuess = 0;
+				Die guessDie = new Die();		   
+                Scanner scan = new Scanner(System.in);
+						System.out.println("Guess a value from 0 to 6, Type N to exit.");				
+				String guess = scan.next();
+				Die.roll();
+				while (guess != 'N') {
+					if (Integer.parseInt(guess) == Die.getFaceValue){
+						System.out.println("Your guess is correct and the value is: " + Die.getFaceValue);
+						correctGuess++;
+					}
+					else {
+						System.out.println("Your guess is NOT correct and the value is: " + Die.getFaceValue);
+						wrongGuess++;
+					}
+				}
+				System.out.println("Exiting. Number of Correct Guesses:" +correctGuess + "and number of wrong guesses: + wrongGuess");
+	}
+}				

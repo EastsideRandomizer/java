@@ -1,0 +1,11 @@
+public class rectangle2 {
+	/* Their lifetime is as long as this class exist */
+	private int height;
+	private int width;
+	
+	/* A constructor has a same name as a class and it has no return type */
+	public rectangle2 (int initHeight, int initWidth){
+		height = initHeight;
+		width = initWidth;
+		}
+}

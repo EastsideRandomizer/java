@@ -1,0 +1,47 @@
+\title{Introductions to Objects}
+\documentclass[12pt]{article}
+\begin{document}
+
+\title{FIT1002 : Modularization}
+\date{27 August, 2012 - 28 August,2012 }
+\author{Gordon Ng}
+\maketitle
+
+\pagebreak
+\tableofcontents
+\pagebreak
+
+\section{UML}
+\begin{itemize}
+\item Upper Box: Name of Class
+\item Middle box:Attributes
+\item Lower box:
+\item + Public Class
+\item - Private Class
+\item method name, type
+\end{itemize}
+\subsection{Example}
++ test(): void
+
+\section{Encapsulation}
+It allows data and code that manipulates data to be visible or invisible from code outside the class.
+
+\section{Visibility}
+A instance variable or a method can be private which means only code inside the class. 
+
+There should be only one main method for each project.
+
+\section{Our own classes}
+There should be no main method and no static after public. \\
+Static = I can do something.
+\section{Instance Variable}
+Their scope is the entire class they are declared in. Their lifetime is until they are destroyed by the garbage collector or any code.
+
+
+\section{Reminder}
+Rectangle r = create a reference variable that can point at any Rectangle2 object. It cannot point at anything other than a rectangle. \\
+r = new rectangle(2,5) is \\ 
+Initally it points at NULL. (This causes a NULL pointer error.  )
+
+Two reference variables that points at the same object.
+\end{document}

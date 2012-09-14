@@ -9,10 +9,12 @@ public class question2 {
 		int counter = 0;
 		Scanner scan = new Scanner (System.in);
 
-		System.out.println("Enter a potential palindrome:");
+		System.out.println("Please enter a potential palindrome:");
 		string = scan.nextLine();
+		/* Starts a new string which is string converted to lower case*/
 		String str = string.toLowerCase();
-		System.out.println (str);
+		/* Line below is for debugging and hence commented out */
+		// System.out.println (str);
 		left = 0;
 
 		/* runs through the whole string and removes spaces */
@@ -21,15 +23,20 @@ public class question2 {
 			    string2 += str.charAt(i);
 			}
 		}
+		/* uses the same code from Q1.c of lab of week 5 */
 		right = string2.length() - 1;
-		System.out.println (string2);
+		
+		/* The line below is for debugging and hence commented out.*/
+		// System.out.println (string2);
+		/* increments the opreator if the character are the same and the right counter is larger than the counter */
 		while (string2.charAt(left) == string2.charAt(right) && left < right) {
 			left++;	
 			right--;	
-		} //close inner while
+		}
 
 		System.out.println();
 
+		/* Because right is always larger than right if charAt(left) != charAt(right, hence it is not a palindrome. */
 		if (left < right)
 			System.out.println ("That string is NOT a palindrome.");
 		else

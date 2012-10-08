@@ -1,0 +1,55 @@
+public class Bin{
+    private String stockID;
+    private int stockLevel;
+    private int stockMax;
+    private int stockMin;
+    private boolean auto;
+    public Bin(String initStockID, int initStockLevel, int initStockMin, int initStockMax, boolean initState){
+	stockID = initStockID;
+	stockLevel = initStockLevel;
+	stockMax = initStockMax;
+	stockMin = initStockMin;
+	auto = initState;
+    }
+
+    public String getStockID(){
+	String ret = stockID;
+	return ret;
+    }
+
+    public int getStockLevel(){
+	int ret = stockLevel;
+	return ret;
+    }
+
+    public int getStockMax(){
+	int ret = stockMax;
+	return ret;
+    }
+
+    public int getStockMin(){
+	int ret = stockMin;
+	return ret;
+    }
+
+    public boolean getState(){
+	boolean ret = auto;
+	return ret;
+    }
+
+    public int StockIn(int quantity){
+	int ret;
+	if((stockLevel + quantity) > stockMax){
+	    ret = stockMax - stockLevel;
+	}
+	else{
+	    stockLevel = stockLevel + quantity;
+	    ret = quantity;
+	}
+	return ret;
+    }
+    
+    public String toString(){
+	return ("Stock ID: " + stockID +"Level: " + stockLevel + "Min: " + stockMin + "Max: " + stockMax + "Auto: " + auto) ;
+    }
+}

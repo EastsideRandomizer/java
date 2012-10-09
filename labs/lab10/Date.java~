@@ -1,0 +1,25 @@
+public class Date {
+    private int day;
+    private int month;
+    private int year;
+    public Date(int initDay, int initMonth, int iniYear){
+	day = initDay;
+	month = initMonth;
+	year = initYear;
+    }
+    
+    public void setDate(int newDay, int newMonth, int newYear){
+	day = newDay;
+	month = newMonth;
+	year = newYear;
+    }	
+
+    public int getDay(){
+	int ret = day;
+	return day;
+    }
+
+    public int getMonth(){
+	int ret = month;
+	return ret;
+    }

@@ -21,14 +21,17 @@ public class Warehouse {
 	return result;  
     }
 
-    public void replenish(){
+    public void replenish(int a){
 	int quantityAdded;
-	if (bins[noOfBins].getState() && bins[noOfBins].getStockLevel() <  bins[noOfBins].getStockMin()){ 
+	if (bins[a].getState() && bins[a].getStockLevel() <  bins[a].getStockMin()){ 
 	    
-	    bins[noOfBins].StockIn((bins[noOfBins].getStockMax() - bins[noOfBins].getStockLevel()));
+	    bins[a].StockIn((bins[a].getStockMax() - bins[a].getStockLevel()));
+	    System.out.println("Automatic Restock Undetaken.");
 	}
 	else {
-	    bins[noOfBins].StockIn(scan.nextInt());
+	    System.out.print("Enter the amount to Replenish: ");
+	    quantityAdded = scan.nextInt();
+	    System.out.println("Amount Restocked : " + bins[a].StockIn(quantityAdded));
 	}
 	
     }

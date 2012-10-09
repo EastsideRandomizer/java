@@ -2,7 +2,7 @@ public class Inventory {
     public static void main(String[] args){
 	final int SIZE = 3;
 	Warehouse warehouse1 = new Warehouse(SIZE);
-	//Testing whether adding 3 bins will mess things up.
+	//Testing whether adding more than 3 bins will mess things up.
 	System.out.println("Bins Beyond here should be added (it will print true.)");
 	System.out.println("Result: " + warehouse1.addBin("1",60,50,100,false));
   	System.out.println("Result: " + warehouse1.addBin("2",40,50,100,true));
@@ -13,7 +13,8 @@ public class Inventory {
 
 	for(int i = 0 ; i < SIZE;i++){
 	    System.out.println("[Current] " + warehouse1.bins[i].toString());
-		warehouse1.replenish(i); 
+		/* Replenish The Bins */
+ 		warehouse1.replenish(i); 
 		System.out.println("");
 	}   	
 	System.out.println("Newest Status of the Inventory");

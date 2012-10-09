@@ -23,6 +23,7 @@ public class Warehouse {
 
     public void replenish(int a){
 	int quantityAdded;
+	/* check for whether automatic restock is true */
 	if (bins[a].getState() && bins[a].getStockLevel() <  bins[a].getStockMin()){ 
 	    
 	    bins[a].StockIn((bins[a].getStockMax() - bins[a].getStockLevel()));

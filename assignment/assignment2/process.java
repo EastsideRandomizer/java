@@ -3,7 +3,8 @@ public class process{
     public static void main (String[] args){
         Scanner scan = new Scanner(System.in);
 	int[] a;
-	a = new int[10];
+        final int LENGTH = 10;
+	a = new int[LENGTH];
 	int counter = 0;
 	final int STOP = -1;
 	boolean isStop = false;
@@ -13,7 +14,7 @@ public class process{
 	while ( isStop != true ){
 	    if ( a[counter] > 0){
 		counter++;
-		System.out.println("Enter another Integer:");	    
+		System.out.println("Enter another Integer (-1 to Stop):");	    
 		a[counter] = scan.nextInt();
 		if (counter == a.length -1){
 		    isStop = true;
@@ -23,7 +24,7 @@ public class process{
 		isStop = true;
 	    }
 	    if ( a [counter] <= 0 && a[counter] != STOP ){
-		System.out.println("please enter a positive. Integer:");	    
+		System.out.println("please enter a positive integer:");	    
 		a[counter] = scan.nextInt();
 	    } 
 	}	

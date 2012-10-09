@@ -19,7 +19,7 @@ public class Question2 {
 	    }	 
 	}
 
-	System.out.println("First three integers are");	    
+	System.out.println("First three unique integers are");	    
 	for(int i = 0 ; i < a.length ; i++) {
 	    System.out.print(a[i]);
 	    System.out.print(" ");	
